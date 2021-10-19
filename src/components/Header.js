@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Jumbotron } from "reactstrap";
 import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
 
 class Header extends Component {
   render() {
