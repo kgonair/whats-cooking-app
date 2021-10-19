@@ -21,7 +21,7 @@ class Header extends Component {
           <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <div class="container">
               <div class="collapse navbar-collapse" id="Navbar">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav mx-auto">
                   <li className="nav-item active">
                     <Link to="/home" className="nav-link">
                       <i className="fa fa-list fa-lg"></i> Home
@@ -30,6 +30,11 @@ class Header extends Component {
                   <li className="nav-item">
                     <Link to="/ingredients" className="nav-link">
                       <i className="fa fa-list fa-lg"></i> Ingredients
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link to="/recipes" className="nav-link">
+                      <i className="fa fa-list fa-lg"></i> Recipes
                     </Link>
                   </li>
                   <li className="nav-item">

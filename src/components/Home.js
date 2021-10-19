@@ -5,12 +5,6 @@ class Home extends Component {
     return (
       <div>
         <p>Home Content</p>
-        <p>Home Content</p>
-        <p>Home Content</p>
-        <p>Home Content</p>
-        <p>Home Content</p>
-        <p>Home Content</p>
-        <p>Home Content</p>
       </div>
     );
   }
