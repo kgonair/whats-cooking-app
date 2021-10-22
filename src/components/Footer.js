@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
 
 class Footer extends Component {
   render() {
@@ -11,21 +12,21 @@ class Footer extends Component {
               <div className="col-4 col-sm-2 offset-1">
                 <h5>Links</h5>
 
-                <ul className="list-unstyled">
+                <ul class="list-inline mx-auto">
                   <li>
                     <Link to="/home">Home</Link>
                   </li>
                   <li>
-                    <Link to="ingredients">Ingredients</Link>
+                    <Link to="/ingredients">Ingredients</Link>
                   </li>
                   <li>
-                    <Link to="recipes">Recipes</Link>
+                    <Link to="/recipes">Recipes</Link>
                   </li>
                   <li>
-                    <Link to="about">About</Link>
+                    <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <Link to="about">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
