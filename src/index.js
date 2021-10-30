@@ -2,6 +2,8 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import 'font-awesome/css/font-awesome.css';
+import 'bootstrap-social/bootstrap-social.css';
 import App from "./App";
 
 const rootElement = document.getElementById("root");
